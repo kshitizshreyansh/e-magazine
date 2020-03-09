@@ -1,0 +1,81 @@
+#icon {
+    width: 85px;
+    height: 35px;
+    filter: contrast(4);
+}
+
+.navbar-dark .navbar-brand {
+    font-size: 30px;
+}
+
+.navbar {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#showcase {
+    background-image: url(../img/bg-intro.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 760px;
+    filter: brightness(.8)
+}
+
+#header {
+    background-color: rgba(222, 184, 135, .5);
+    font-weight: bold;
+    color: black !important;
+}
+
+#header .sub_heading {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.about {
+    border-bottom: 1px solid black !important;
+}
+
+#footer {
+    margin-top: 60px;
+    background: url(../img/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 75vh;
+}
+
+#footer .footer-heading h2 {
+    font-weight: 500;
+}
+
+#footer h2 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 1px 1px 0px gold
+}
+
+#footer button {
+    padding: 20px;
+    width: 180px;
+    border-radius: 10%
+}
+
+@media(max-width: 768px) {
+    #explore h2 {
+        font-size: 3rem;
+    }
+}
+
+@media(max-width: 768px) {
+    #footer-padding {
+        padding-top: 15%;
+    }
+}
+
+@media(min-width: 768px) {
+    #footer-padding {
+        padding-top: 10%;
+    }
+}
